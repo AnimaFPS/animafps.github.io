@@ -1,0 +1,25 @@
+{
+        "subject": "acct:anima@anima.nz",
+        "links": [
+                {
+                        "rel": "http://openid.net/specs/connect/1.0/issuer",
+                        "href": "https://auth.anima.nz/application/o/tailscale/"
+                },
+                {
+                         "rel": "authorization_endpoint",
+                         "href": "https://auth.anima.nz/application/o/tailscale/oauth2/authorize"
+                },
+                {
+                         "rel": "token_endpoint",
+                         "href": "https://auth.anima.nz/application/o/tailscale/oauth2/token"
+                },
+                {
+                         "rel": "userinfo_endpoint",
+                         "href": "https://auth.anima.nz/application/o/tailscale/userinfo"
+                },
+                {
+                         "rel": "jwks_uri",
+                         "href": "https://auth.anima.nz/application/o/tailscale/jwks"
+                }
+        ]
+}
